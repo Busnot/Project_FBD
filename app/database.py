@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # Cambia el esquema del URL para usar pymysql
-DATABASE_URL = "mysql+pymysql://root:123@localhost/UES_GASOLINERA"
+DATABASE_URL = "mysql+pymysql://root:CWemXAjScsglxUbimlbHioOhpWaleGTx@junction.proxy.rlwy.net/railway"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
